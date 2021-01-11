@@ -91,7 +91,7 @@ function App() {
         
         {/* --------------------------------------------- HOMEPAGE --------------------------------------------------------------------- */}
         <Switch>
-          <Route path='/' exact>
+          <Route path='/the-dough-shack/' exact>
             <Banner 
               img='http://thedoughshack.co.uk/wp-content/uploads/2018/10/20180311-THE_DOUGH_SHACK_001.jpg'
               alt='pizza at dinner table'
@@ -112,7 +112,7 @@ function App() {
 
 
           {/* ---------------------------------------------- PIZZA MENU ------------------------------------------------------------------ */}
-          <Route path='/pizza'>
+          <Route path='/the-dough-shack/pizza'>
             <Banner 
               img='http://thedoughshack.co.uk/wp-content/uploads/2017/05/Pizza-header-resized.jpg'
               alt='close up of nduja pizza'
@@ -134,7 +134,7 @@ function App() {
 
 
           {/* ---------------------------------------------- ABOUT US --------------------------------------------------------------------- */}
-          <Route path='/about-us'>
+          <Route path='/the-dough-shack/about-us'>
             <Banner 
               img='http://thedoughshack.co.uk/wp-content/uploads/2016/06/About-header-resized.jpg'
               alt='the dough shack logo'
@@ -153,7 +153,7 @@ function App() {
 
 
           {/* ----------------------------------------------- PRE ORDER -------------------------------------------------------------------- */}
-          <Route path='/order'>
+          <Route path='/the-dough-shack/order'>
             <Banner 
               img='http://thedoughshack.co.uk/wp-content/uploads/2016/06/About-header-resized.jpg'
               alt='the dough shack logo'
@@ -169,7 +169,7 @@ function App() {
 
         {/* ----------------------------------------------- SALE CONFIRMATION --------------------------------------------------------------------  */}
 
-        <Route path='/confirmation'>
+        <Route path='/the-dough-shack/confirmation'>
             <Banner 
               img='http://thedoughshack.co.uk/wp-content/uploads/2016/06/About-header-resized.jpg'
               alt='the dough shack logo'
