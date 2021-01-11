@@ -1,0 +1,417 @@
+html, body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  min-width: fit-content;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------ HOMEPAGE ----------------------------------------------------------------- */
+
+
+/* NAVIGATION */
+.navCont {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: white;
+}
+
+.navigation {
+  width: 50%;
+  margin: 0 25%;
+  padding: 20px 0 10px 0;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.navigation a {
+  font-size: 2rem;
+  padding: 5px 15px;
+}
+
+#preOrder {
+  position: relative;
+}
+
+#orderCount {
+  position: absolute;
+  padding: 5px;
+  border-radius: 1px;
+  border: 1px solid #C6DB90;
+  background: #e3edca;
+  border-radius: 50%;
+  right: -8px;
+}
+
+/* BANNER */
+.banner {
+  position: relative;
+  padding-top: 88px
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+}
+
+.bannerImg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 700px;
+}
+
+.bannerBox {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2.5px;
+  width: 30%;
+}
+
+.bannerBox p {
+  font-size: 1.5rem;
+}
+
+.countDown {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  background: black;
+  padding: 10px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 6px;
+  border: solid #C6DB90 4px;
+}
+
+
+/* TIMETABLES */
+.van-pizzeria-divide {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vans {
+  border: 1px solid magenta;
+  width: 40%;
+  background: #45423F;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: solid #C6DB90 4px;
+}
+
+.rightColumn {
+  width: 40%;
+}
+
+.pizzeria {
+  border: 1px solid magenta;
+  background: #45423F;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: solid #C6DB90 4px;
+}
+
+.popUpImg {
+  width: 100%;
+}
+
+
+/* VANS */
+#today {
+  background: #a3bd5c;
+}
+
+.vanLocations {
+  background: #e3edca;
+  color: black;
+  text-align: left;
+  padding: 2.5px;
+}
+
+.vanLocation {
+  display: flex;
+
+}
+
+.vanLocation:hover {
+  background: #e0ff91;
+  cursor: pointer;
+}
+
+.vanDateTime {
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 7.5px;
+  border: solid #C6DB90 1px;
+  font-size: 1.25rem;
+  background: #e3edca;
+  margin: 15px 0;
+}
+
+
+
+.btn:hover {
+  background: #a3bd5c;
+  cursor: pointer;
+}
+
+.btn a:hover {
+  text-decoration: none;
+}
+
+.orderBtn {
+  padding: 2.5px;
+  border-radius: 5px;
+  border: solid #C6DB90 1px;
+  background: #e3edca;
+  margin-left: 10px;
+}
+
+.orderBtn:hover {
+  background: #a3bd5c;
+  cursor: pointer;
+}
+
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  background: #45423F;
+  color: white;
+}
+
+.footCont {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerNav ul {
+  display: flex;
+}
+
+.footerNav li {
+  padding-right: 10px;
+  color: #a3bd5c;
+}
+
+.footerNav a {
+  color: #a3bd5c;
+}
+
+.socialLinks a {
+  color: white;
+}
+
+/* ----------------------------------------------- ABOUT US ---------------------------------------------------------------- */
+
+.textContent {
+  width: 80%;
+  margin: auto;
+}
+
+#aboutUsImg {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.gallery {
+  margin: 70px 0;
+}
+
+.galleryRow img {
+  width: 25%;
+}
+
+
+/* ----------------------------------------------- PIZZA ---------------------------------------------------------------- */
+
+.menu {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.menuType {
+  display: flex;
+}
+
+.menuType div {
+  padding: 20px;
+  margin-right: 20px;
+  border: solid #C6DB90 7px;
+  border-bottom: none;
+}
+
+.menuType div:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background: #C6DB90;
+}
+
+.menuSeperator {
+  border: solid #C6DB90 7px;
+}
+
+.menuItems {
+  width: 50%;
+  padding: 10px;
+}
+
+.menuImgCont {
+  width: 50%;
+  border-right: solid #C6DB90 7px;
+}
+
+#menuImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menuSeperator {
+  display: flex;
+}
+
+.menuCols {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menuItems p {
+  margin: 0;
+}
+
+.menuCols h4 {
+  margin: 0;
+}
+
+.pizzaCont {
+  margin-bottom: 10px;
+}
+
+/* ORDERS */
+
+.orderList{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+select {
+  display: block;
+}
+
+select, input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 200px;
+}
+
+
+
+.orderTable {
+  text-align: left;
+  width: 45%;
+}
+
+.orderTable td {
+  padding: 2.5px 10px 2.5px 0;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center
+}
+
+.orderForm {
+  width: 45%;
+}
+
+#sumOrder {
+  color: #a3bd5c;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  border-top: 2px solid black;
+}
+
+/* GAME  */
+
+.gameCont {
+  width: 80%;
+  margin: auto;
+}
+
+.divFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gameBox {
+  width: 45%;
+  margin: 10px 0;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 2em;
+  background: red;
+  transition: background-color 1000ms;
+}
+
+.gameBox:hover {
+  background: lightcoral;
+  cursor: pointer;
+}
+
+#winner {
+  font-size: 1.5rem;
+  color: red;
+}
