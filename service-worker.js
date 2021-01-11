@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/the-dough-shack/precache-manifest.21f08e4e8d5c1d052234139458353aa4.js"
+  "/the-dough-shack/precache-manifest.a842e6db64facf78f2272af92c829122.js"
 );
 
 self.addEventListener('message', (event) => {
