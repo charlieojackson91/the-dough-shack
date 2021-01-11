@@ -118,7 +118,7 @@ const Menu = ({addPreoder}) => {
                             />
                         )
                     }
-                    <button className='btn'><Link to='/order'>View order</Link></button>
+                    <button className='btn'><Link to='/the-dough-shack/order'>View order</Link></button>
                 </div> 
             </div> 
                 
