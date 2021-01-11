@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9ee5416640098c958a76aeeeb9d3954",
+    "revision": "9ce07fa7033fd37cda12d2dc144e6041",
     "url": "/the-dough-shack/index.html"
   },
   {
-    "revision": "c499fd514d97145161ca",
+    "revision": "8214625924ab531153b1",
     "url": "/the-dough-shack/static/css/main.29f6544a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-dough-shack/static/js/2.7d4fb125.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c499fd514d97145161ca",
-    "url": "/the-dough-shack/static/js/main.e67763e6.chunk.js"
+    "revision": "8214625924ab531153b1",
+    "url": "/the-dough-shack/static/js/main.438fb2d3.chunk.js"
   },
   {
     "revision": "089bab7986dc3277b51b",
