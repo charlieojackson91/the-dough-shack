@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/the-dough-shack/static/css/main.29f6544a.chunk.css",
+    "main.js": "/the-dough-shack/static/js/main.bacc74b0.chunk.js",
+    "main.js.map": "/the-dough-shack/static/js/main.bacc74b0.chunk.js.map",
+    "runtime-main.js": "/the-dough-shack/static/js/runtime-main.ec8eb413.js",
+    "runtime-main.js.map": "/the-dough-shack/static/js/runtime-main.ec8eb413.js.map",
+    "static/js/2.7d4fb125.chunk.js": "/the-dough-shack/static/js/2.7d4fb125.chunk.js",
+    "static/js/2.7d4fb125.chunk.js.map": "/the-dough-shack/static/js/2.7d4fb125.chunk.js.map",
+    "index.html": "/the-dough-shack/index.html",
+    "precache-manifest.7eaa3bc68d7115a52d7a24b54d583736.js": "/the-dough-shack/precache-manifest.7eaa3bc68d7115a52d7a24b54d583736.js",
+    "service-worker.js": "/the-dough-shack/service-worker.js",
+    "static/css/main.29f6544a.chunk.css.map": "/the-dough-shack/static/css/main.29f6544a.chunk.css.map",
+    "static/js/2.7d4fb125.chunk.js.LICENSE.txt": "/the-dough-shack/static/js/2.7d4fb125.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec8eb413.js",
+    "static/js/2.7d4fb125.chunk.js",
+    "static/css/main.29f6544a.chunk.css",
+    "static/js/main.bacc74b0.chunk.js"
+  ]
+}
